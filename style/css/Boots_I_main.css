@@ -55,6 +55,9 @@ body {
   position: relative;
   height: 65rem;
   z-index: 0;
+  background-image: url("/Bootstrap_dev/img/new-york_1920.jpg");
+  background-size: cover;
+  background-position: center;
 }
 .home .welcome-text {
   font-size: 2.2rem;
@@ -90,4 +93,18 @@ body {
 }
 .aboutus-box p {
   margin-top: 10px;
+}
+
+.accordion .accordion-button {
+  padding: 20px 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.accordion .accordion-button:focus,
+.accordion .accordion-button:not(.collapsed),
+.accordion .accordion-button:focus:not(:focus-visible) {
+  background-color: rgb(219, 166, 68);
+  box-shadow: none;
+  outline: none;
+  border: 1px solid black;
 }/*# sourceMappingURL=Boots_I_main.css.map */

@@ -37,6 +37,9 @@
   position: relative;
   height: 65rem;
   z-index: 0;
+  background-image: url('/Bootstrap_dev/img/new-york_1920.jpg');
+  background-size: cover;
+  background-position: center;
 
   .welcome-text{
     font-size: 2.2rem;
@@ -82,5 +85,20 @@
   }
 }
 
+.accordion {
+  .accordion-button{
+    padding: 20px 0;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .accordion-button:focus,
+  .accordion-button:not(.collapsed),
+  .accordion-button:focus:not(:focus-visible){
+    background-color: rgb(219, 166, 68);
+    box-shadow:none;
+    outline:none;
+    border: 1px solid black;
+  }
+}
 
 
