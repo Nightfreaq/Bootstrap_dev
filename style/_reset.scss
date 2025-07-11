@@ -9,6 +9,7 @@
 :root{
   font-size: 62.5%;
   scroll-behavior: smooth;
+  scroll-padding-top: 77.9px;
 }
 
 body{
@@ -18,25 +19,3 @@ font-size: 1.6rem;
 background-color: #333;
 }
 
-.color-orange{
-  color: rgb(255,125,0);
-}
-
-.navbar-brand{
-  font-size: 2rem;
-  font-weight: bold;
-
-  i{
-    padding: 0 8px;
-    font-size: 2.2rem;
-  }
-}
-
-.nav-link{
-  text-transform: uppercase;
-}
-
-.nav-link,
-.navbar-toggler{
-  font-size: 1.8rem;
-}

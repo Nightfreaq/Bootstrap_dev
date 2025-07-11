@@ -9,6 +9,7 @@
 :root {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  scroll-padding-top: 77.9px;
 }
 
 body {
@@ -22,8 +23,18 @@ body {
   color: rgb(255, 125, 0);
 }
 
+.hero-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: -1;
+}
+
 .navbar-brand {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: bold;
 }
 .navbar-brand i {
@@ -38,4 +49,33 @@ body {
 .nav-link,
 .navbar-toggler {
   font-size: 1.8rem;
+}
+
+.home {
+  position: relative;
+  height: 65rem;
+  z-index: 0;
+}
+.home .welcome-text {
+  font-size: 2.2rem;
+}
+.home a {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.section-title {
+  font-size: 3.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.underline {
+  height: 3px;
+  width: 100%;
+  margin: 0 auto 30px;
+  background-color: white;
 }/*# sourceMappingURL=Boots_I_main.css.map */
