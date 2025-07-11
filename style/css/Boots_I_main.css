@@ -78,4 +78,16 @@ body {
   width: 100%;
   margin: 0 auto 30px;
   background-color: white;
+}
+
+.aboutus-box .aboutus-box-title {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.aboutus-box i {
+  font-size: 3rem;
+}
+.aboutus-box p {
+  margin-top: 10px;
 }/*# sourceMappingURL=Boots_I_main.css.map */
