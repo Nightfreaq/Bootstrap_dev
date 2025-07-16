@@ -15,8 +15,8 @@
   <title>MMX Limited</title>
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg bg-light py-5 fixed-top">
+<body data-bs-spy="scroll" data-bs-target="#navMMX">
+  <nav id="navMMX" class="navbar navbar-expand-lg bg-light py-5 fixed-top">
     <div class="container">
       <a class="navbar-brand " href="#"><i class="bi bi-camera2 color-orange"></i>MMX Limited</a>
       <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse"
@@ -26,10 +26,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
-          <a class="nav-link active" aria-current="page" href="#home">Home</a>
-          <a class="nav-link" href="#aboutus">o nas</a>
-          <a class="nav-link" href="#team">zespół</a>
-          <a class="nav-link" href="#contact">kontakt</a>
+          <a class="nav-link px-md-4 active" aria-current="page" href="#home">Home</a>
+          <a class="nav-link px-md-4" href="#aboutus">o nas</a>
+          <a class="nav-link px-md-4" href="#team">zespół</a>
+          <a class="nav-link px-md-4" href="#contact">kontakt</a>
         </div>
       </div>
     </div>
@@ -200,15 +200,40 @@
       </div>
     </section>
     <section id="contact" class="contact py-5">
-      <div class="container py-5">
+      <div class="container text-center py-5">
         <h2 class="section-title">kontakt</h2>
         <div class="underline"></div>
-        <p class="display-5 text-center text-light">napisz do nas</p>
+        <p class="display-5 text-center contact-us color-orange mb-2 mb-md-5">napisz do nas</p>
+        <div class="row">
+          <div class="col-lg-9 my-4 m-lg-0">
+            <form action="">
+              <div class="input-group mb-4">
+                <input type="text" class="form-control" placeholder="Imię i Nazwisko" aria-label="Imię i Nazwisko">
+              </div>
+              <div class="input-group mb-4">
+                <input type="text" class="form-control" placeholder="Adres mailowy" aria-label="Adres mailowy">
+              </div>
+              <div class="input-group mb-4">
+                <textarea class="form-control"rows="6" placeholder="Treść wiadomości"></textarea>
+              </div>
+              <input type="submit" class="btn btn-light px-4 py-2" value="Wyślij">
+            </form>
+          </div>
+          <div class="col-lg-3 my-4 m-lg-0 text-light">
+            <h3>adres</h3>
+            <p class="color-orange brand">MMX Studio</p>
+            <p><i class="bi bi-geo-alt-fill color-orange"></i>ul. Sezamkowa, 00-000 Bajkowo</p>
+            <p><i class="bi bi-telephone-fill color-orange"></i>+48 000-000-000</p>
+            <p><i class="bi bi-envelope-at-fill color-orange"></i>mail@mail</p>
+          </div>
+        </div>
       </div>
     </section>
-
-
   </main>
+
+  <footer class="footer py-4 bg-secondary">
+    <p class="display-6 text-center text-light mb-0"> MMX Studio 2025</p>
+  </footer>
 
 
 

@@ -1,39 +1,51 @@
-@use'./reset';
+@use './reset';
 
-.color-orange{
-  color: rgb(255,125,0);
+.color-orange {
+  color: rgb(255, 125, 0);
 }
 
-.hero-shadow{
+.hero-shadow {
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0,0,0, .65);
+  background-color: rgba(0, 0, 0, 0.65);
   z-index: -1;
 }
 
-.navbar-brand{
-  font-size: 2.2rem;
-  font-weight: bold;
 
-  i{
-    padding: 0 8px;
+.navbar{
+  font-size: 2.5rem;
+
+  .navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+  
+    i {
+      padding: 0 8px;
+      font-size: 2.5rem;
+    }
+  }
+  
+  .nav-link {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+    .nav-link.active {
+      color: rgb(255, 125, 0);
+    }
+
+  
+  
+  .nav-link,
+  .navbar-toggler {
     font-size: 2.2rem;
   }
 }
 
-.nav-link{
-  text-transform: uppercase;
-}
-
-.nav-link,
-.navbar-toggler{
-  font-size: 1.8rem;
-}
-
-.home{
+.home {
   position: relative;
   height: 65rem;
   z-index: 0;
@@ -41,19 +53,18 @@
   background-size: cover;
   background-position: center;
 
-  .welcome-text{
+  .welcome-text {
     font-size: 2.2rem;
-  
   }
 
-  a{
+  a {
     padding: 10px 20px;
     text-transform: uppercase;
     font-size: 2rem;
   }
 }
 
-.section-title{
+.section-title {
   font-size: 3.5rem;
   text-align: center;
   text-transform: uppercase;
@@ -61,64 +72,92 @@
   color: white;
 }
 
-.underline{
+.underline {
   height: 3px;
   width: 100%;
   margin: 0 auto 30px;
   background-color: white;
 }
 
-.aboutus-box{
-
-  .aboutus-box-title{
+.aboutus-box {
+  .aboutus-box-title {
     font-size: 2.2rem;
     text-transform: uppercase;
     font-weight: bold;
   }
 
-  i{
+  i {
     font-size: 3rem;
   }
 
-  p{
+  p {
     margin-top: 10px;
   }
 }
 
 .accordion {
-  .accordion-button{
+  .accordion-button {
     padding: 20px 0;
     font-size: 2rem;
     font-weight: bold;
   }
   .accordion-button:focus,
   .accordion-button:not(.collapsed),
-  .accordion-button:focus:not(:focus-visible){
+  .accordion-button:focus:not(:focus-visible) {
     background-color: rgb(219, 166, 68);
-    box-shadow:none;
-    outline:none;
+    box-shadow: none;
+    outline: none;
     // border: 2px solid red;
   }
 }
 
-.team{
+.team {
   background-color: #4b4a4a;
-
-  .card{
-
-    .card-img-top{
+  .card {
+    .card-img-top {
       height: 50%;
       object-fit: cover;
     }
 
-    .card-title{
+    .card-title {
       margin: 20px 0 40px;
       text-transform: uppercase;
       font-size: 2.2rem;
     }
+
+    .card-text {
+      padding: 0 15px;
+    }
   }
 }
 
+.contact {
+  .contact-us {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
 
+  .form-control {
+    font-size: 1.8rem;
+  }
 
+  .btn {
+    font-size: 2rem;
+  }
 
+  h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .brand {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  i {
+    font-size: 2rem;
+    padding: 0 8px;
+  }
+}

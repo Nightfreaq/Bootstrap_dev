@@ -33,22 +33,27 @@ body {
   z-index: -1;
 }
 
-.navbar-brand {
-  font-size: 2.2rem;
+.navbar {
+  font-size: 2.5rem;
+}
+.navbar .navbar-brand {
+  font-size: 2.5rem;
   font-weight: bold;
 }
-.navbar-brand i {
+.navbar .navbar-brand i {
   padding: 0 8px;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
 }
-
-.nav-link {
+.navbar .nav-link {
   text-transform: uppercase;
+  font-weight: bold;
 }
-
-.nav-link,
-.navbar-toggler {
-  font-size: 1.8rem;
+.navbar .nav-link.active {
+  color: rgb(255, 125, 0);
+}
+.navbar .nav-link,
+.navbar .navbar-toggler {
+  font-size: 2.2rem;
 }
 
 .home {
@@ -120,4 +125,32 @@ body {
   margin: 20px 0 40px;
   text-transform: uppercase;
   font-size: 2.2rem;
+}
+.team .card .card-text {
+  padding: 0 15px;
+}
+
+.contact .contact-us {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.contact .form-control {
+  font-size: 1.8rem;
+}
+.contact .btn {
+  font-size: 2rem;
+}
+.contact h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.contact .brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.contact i {
+  font-size: 2rem;
+  padding: 0 8px;
 }/*# sourceMappingURL=Boots_I_main.css.map */
